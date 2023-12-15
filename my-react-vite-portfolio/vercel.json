@@ -3,7 +3,10 @@
     "builds": [
         {
             "src": "my-react-vite-portfolio",
-            "use": "vercel/node"
+            "use": "@vercel/node",
+            "config": {
+                "buildCommand": "npm install && npm run build"
+            }
         }
     ]
 }
