@@ -2,10 +2,10 @@
     "version": 2,
     "builds": [
         {
-            "src": "your-source-directory",
+            "src": "my-react-vite-portfolio",
             "use": "@vercel/static-build",
             "config": {
-                "buildCommand": "npm run build"
+                "buildCommand": "npm run dev"
             }
         }
     ]
