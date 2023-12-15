@@ -1,12 +1,8 @@
 {
-    "version": 2,
-    "builds": [
+    "rewrites": [
         {
-            "src": "my-react-vite-portfolio",
-            "use": "@vercel/node",
-            "config": {
-                "buildCommand": "npm install && npm run build"
-            }
+            "source": "/(.*)",
+            "destination": "/"
         }
     ]
 }
